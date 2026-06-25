@@ -30,51 +30,66 @@
 
 body {
   min-height: 100vh;
-    font-family: Outfit;
+  font-family: Outfit;
 
   /* font-family: 'Outfit'; */
+  background-color: black;
 }
 
 main {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--Stone-100);
+  align-items: start;
+  justify-items: center;
+  width: 736px;
+  background-color: red;
+  justify-self: center;
+  align-self: center;
+  height: 1707PX;
+  border-radius: 30px;
 }
 
 .recipe-card {
-  background-color: var(--White);
   display: flex;
   flex-direction: column;
-  width: 735px;
-  height: 1705px;
-  padding: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .recipe-card img {
-  width: 655px;
+  margin-top: 40px;
+    width: 656px;
+  align-items: center;
+  border-radius: 20px;
 }
 
-.title-section h1{
-    font-family: 'Young';
-    font-weight: 400;
+.recipe-card img,
+.title-section,
+.prep-info,
+.ingredients-info,
+.instruction-info,
+.nutration-info {
+  box-sizing: border-box;
+  margin: 0 40px 30px;
+  width: 656px;
+  padding-left: 30px;
+}
 
+.title-section {
+  background-color: aqua;
 }
-.prep-info h2{
-color: var(--Rose-800);
+
+.prep-info {
+  background-color: blue;
 }
-.ingredients-info h2{
-  font-family: 'young';
-  font-weight: 400;
-color: var(--Brown-800);
+
+.ingredients-info {
+  background-color: burlywood;
 }
-.instruction-info h2{
-  font-family: 'young';
-  font-weight: 400;
-color: var(--Brown-800);
+
+.instruction-info {
+  background-color: whitesmoke;
 }
-.nutration-info h2 {
-  font-family: 'young';
-  font-weight: 400;
-color: var(--Brown-800);
+
+.nutration-info {
+  background-color: cadetblue;
 }
