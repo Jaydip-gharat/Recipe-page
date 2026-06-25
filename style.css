@@ -30,7 +30,8 @@
 
 body {
   min-height: 100vh;
-  font-family: 'Young' serif;
+    font-family: Outfit;
+
   /* font-family: 'Outfit'; */
 }
 
@@ -52,5 +53,28 @@ main {
 
 .recipe-card img {
   width: 655px;
+}
 
+.title-section h1{
+    font-family: 'Young';
+    font-weight: 400;
+
+}
+.prep-info h2{
+color: var(--Rose-800);
+}
+.ingredients-info h2{
+  font-family: 'young';
+  font-weight: 400;
+color: var(--Brown-800);
+}
+.instruction-info h2{
+  font-family: 'young';
+  font-weight: 400;
+color: var(--Brown-800);
+}
+.nutration-info h2 {
+  font-family: 'young';
+  font-weight: 400;
+color: var(--Brown-800);
 }
