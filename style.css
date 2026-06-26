@@ -41,7 +41,7 @@ main {
   align-items: start;
   justify-items: center;
   width: 736px;
-  background-color: red;
+  background-color: rgb(131, 69, 69);
   justify-self: center;
   align-self: center;
   height: 1707PX;
@@ -52,12 +52,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-self: center;
   align-items: center;
+  gap: 29px;
 }
 
-.recipe-card img {
-  margin-top: 40px;
-    width: 656px;
+.image{
+  margin-top: 29px;
+}
+.image img {
+  width: 656px;
+  justify-self: center;
   align-items: center;
   border-radius: 20px;
 }
@@ -69,27 +74,36 @@ main {
 .instruction-info,
 .nutration-info {
   box-sizing: border-box;
-  margin: 0 40px 30px;
+  margin: 0 40px 0px;
   width: 656px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .title-section {
   background-color: aqua;
+  height: 125px;
 }
 
 .prep-info {
-  background-color: blue;
+  background-color: rgb(195, 0, 255);
+  height: 181px;
+  padding: 20px;
 }
 
 .ingredients-info {
   background-color: burlywood;
+  height: 237px;
+  padding: 20px;
 }
 
 .instruction-info {
+  height: 366px;
+  padding: 20px;
   background-color: whitesmoke;
 }
 
 .nutration-info {
+  height: 288px;
+  padding: 20px;
   background-color: cadetblue;
 }
